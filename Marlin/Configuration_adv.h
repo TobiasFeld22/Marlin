@@ -2141,7 +2141,7 @@
  *
  * See https://marlinfw.org/docs/features/lin_advance.html for full instructions.
  */
-// #define LIN_ADVANCE
+#define LIN_ADVANCE
 #if ENABLED(LIN_ADVANCE)
 #if ENABLED(DISTINCT_E_FACTORS)
 #define ADVANCE_K \
@@ -3159,7 +3159,7 @@
  * STEALTHCHOP_(XY|Z|E) must be enabled to use HYBRID_THRESHOLD.
  * M913 X/Y/Z/E to live tune the setting
  */
-#define HYBRID_THRESHOLD
+// #define HYBRID_THRESHOLD
 
 #define X_HYBRID_THRESHOLD 100 // [mm/s]
 #define X2_HYBRID_THRESHOLD 100
